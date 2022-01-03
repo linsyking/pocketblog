@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: Welcome to my blog!
-tagline: 你能做到
+tagline: 成为极限学习机 ——myq
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',
