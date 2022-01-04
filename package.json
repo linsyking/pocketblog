@@ -10,5 +10,9 @@
     "vuepress": "1.8.2",
     "vuepress-theme-reco": "1.6.10"
   },
-  "description": "none"
+  "description": "none",
+  "dependencies": {
+    "vuepress-plugin-auto-sidebar": "^2.3.2",
+    "vuepress-plugin-mathjax": "^1.2.8"
+  }
 }

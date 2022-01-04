@@ -18,6 +18,19 @@ module.exports = {
       }
     ]
   ],
+  "plugins": ['vuepress-plugin-mathjax', [
+    "vuepress-plugin-auto-sidebar",
+    {
+      collapse: {
+        open: true,
+      },title: {
+        mode: "titlecase",
+        map: {}
+      },
+      sidebarDepth: 1,
+    },
+  ]
+  ],
   "theme": "reco",
   "themeConfig": {
     "nav": [
@@ -38,6 +51,10 @@ module.exports = {
           {
             "text": "使用文档",
             "link": "/docs/usage/"
+          },
+          {
+            "text": "基础知识",
+            "link": "/docs/basic/"
           }
         ]
       },
@@ -53,12 +70,6 @@ module.exports = {
         ]
       }
     ],
-    "sidebar": {
-      "/docs/usage/": [
-        "",
-        "rubric"
-      ]
-    },
     "type": "blog",
     "blogConfig": {
       "category": {
@@ -84,7 +95,10 @@ module.exports = {
     "lastUpdated": "Last Updated",
     "author": "King",
     "record": "沪公网安备 31010702007182号",
-    "startYear": "2021"
+    "startYear": "2021",
+    "subSidebar": 'auto',
+    "mode": 'light',
+    "modePicker": false
   },
   "markdown": {
     "lineNumbers": true
